@@ -1,6 +1,7 @@
 ## While using laravel8x i need to use sqlite but it gives me error [could not find driver]
 so 
 > i checked php.ini and found out that extensions related to sqlite are commented out so i uncomment them and restarted the server
+
 but still no changes in error. so found out i need **php-sqlite pack**.
 so i tried running `sudo apt-get install php7.4-sqlite`
 but it gives errors so we have to install below packages
